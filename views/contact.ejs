@@ -1,4 +1,59 @@
-<%- include("partials/header"); -%>
-    <h1>Contact</h1>
-    <p> <%= contactContent %> </p>
-<%- include("partials/footer"); -%>
+<!-- <%- include("partials/header"); -%> -->
+<!-- <h1>Want to
+        talk to us?</h1>
+    <p>Fill out the form if you have questions or ideas for us.</p> -->
+<!-- <p> <%= contactContent %> </p> -->
+<!------ Include the above in your HEAD tag ---------->
+<!-- <%- include("partials/footer"); -%> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <%- include("partials/header"); -%>
+
+    <%- include("partials/footer"); -%> 
+</body>
+</html> -->
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Form 06</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="public\css\styles.css">
+
+</head>
+
+<body>
+    <div class="home-bg">
+    <%- include("partials/header"); -%>
+    
+    <h1>Want to talk to us?</h1>
+    <p>Fill out the form if you have questions or ideas for us.</p>
+    <form action="/contact" method="post">
+        <div class="form-group">
+          <label>Name</label>
+          <input class="form-control" type="text" name="postName">
+          <label>Email</label>
+          <input class="form-control" type="text" name="postEmail">
+          <label>Message</label>
+          <textarea class="form-control" rows="5" cols="15" name="postMessage"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">SEND</button>
+    </form>
+   
+    <%- include("partials/footer"); -%>
+</div>
+</body>
+
+</html>

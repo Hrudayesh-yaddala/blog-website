@@ -1,20 +1,26 @@
-
-<%- include("partials/header"); -%>
-
-    <h1>Home</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+</head>
+<body>
+  <div class="home-bg">
+  <%- include("partials/header"); -%> 
+    <h1>Mentally and physically it is good to write a diary</h1>
     <p> <%= startingContent %> </p>
-
-
   <%  posts.forEach(function(post){ %>
-
     <h1><%=post.title%></h1>
     <p>
     <%=post.content.substring(0, 100) + " ..."%>
-    <a href="/posts/<%=post._id%>">Read More</a>
+    <a href="/posts/<%=post._id%>" style="color:#2C5F2D">Read More</a>
     </p>
+  <% }) %>
 
+    <%- include("partials/footer"); -%>
+  </div>
 
-    <% }) %>
+  </body>
+</html>
 
-
-<%- include("partials/footer"); -%>

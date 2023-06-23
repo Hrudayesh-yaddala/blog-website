@@ -17,24 +17,52 @@ html {
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color:#2C5F2D!important;
 }
 
 .footer-padding {
 	padding-bottom: 60px;
 }
-
+.container{
+  color:#2C5F2D;
+}
 .footer {
 	position: absolute;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color:#2C5F2D;
 }
 
 .footer p {
 	margin-top: 25px;
-	font-size: 12px;
-  color: #fff;
+	font-size: 18px;
+  color: #97BC62;
 }
+
+.home-bg{
+  background-color: #97BC62;
+  height: 100vh;
+}
+.form-control{
+  background-color: #97BC62;
+}
+
+.contact-compose-bt{
+  background-color: #2C5F2D;
+}
+
+.navbar-default{
+  background-color: #97BC62;
+}
+.btn-primary{
+  background-color: #2C5F2D;
+}
+
+
+
+
+
+
+
