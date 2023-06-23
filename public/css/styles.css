@@ -17,7 +17,7 @@ html {
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
-    color:#2C5F2D!important;
+    color:#97BC62!important;
 }
 
 .footer-padding {
@@ -54,7 +54,7 @@ html {
 }
 
 .navbar-default{
-  background-color: #97BC62;
+  background-color: #2C5F2D;
 }
 .btn-primary{
   background-color: #2C5F2D;
