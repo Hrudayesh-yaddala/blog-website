@@ -43,11 +43,11 @@
     <form action="/contact" method="post">
         <div class="form-group">
           <label>Name</label>
-          <input class="form-control" type="text" name="postName">
+          <input class="form-control" type="text" name="postName" required>
           <label>Email</label>
-          <input class="form-control" type="text" name="postEmail">
+          <input class="form-control" type="text" name="postEmail" required>
           <label>Message</label>
-          <textarea class="form-control" rows="5" cols="15" name="postMessage"></textarea>
+          <textarea class="form-control" rows="5" cols="15" name="postMessage" required></textarea>
         </div>
         <button class="btn btn-primary" type="submit" name="button">SEND</button>
     </form>
