@@ -11,7 +11,7 @@
     <h1>Mentally and physically it is good to share an experience..</h1>
     <p> <%= startingContent %> </p>
   <%  posts.forEach(function(post){ %>
-    <h1><%=post.title%></h1>
+    <h3><%=post.title%></h3>
     <p>
     <%=post.content.substring(0, 100) + " ..."%>
     <a href="/posts/<%=post._id%>" style="color:#2C5F2D">Read More</a>
